@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "PokeDex (Chrome, port 5000)",
+      "request": "launch",
+      "type": "dart",
+      "deviceId": "chrome",
+      "args": ["--web-port=5000"]
+    },
+    {
+      "name": "Tes API & Storage (Chrome, port 5000)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main_test.dart",
+      "deviceId": "chrome",
+      "args": ["--web-port=5000"]
+    }
+  ]
+}
